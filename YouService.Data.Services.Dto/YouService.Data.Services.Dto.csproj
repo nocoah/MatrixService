@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7D03AD90-CAAF-4FF0-8592-43F662BB2A23}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YouService.Data.Services</RootNamespace>
+    <AssemblyName>YouService.Data.Services.Dto</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UPrime">
+      <HintPath>..\packages\UPrime\UPrime.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.AutoMapper">
+      <HintPath>..\packages\UPrime\UPrime.AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Extensions.Collection">
+      <HintPath>..\packages\UPrime\UPrime.Extensions.Collection.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Extensions.Core">
+      <HintPath>..\packages\UPrime\UPrime.Extensions.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Extensions.Serialization">
+      <HintPath>..\packages\UPrime\UPrime.Extensions.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Utils">
+      <HintPath>..\packages\UPrime\UPrime.Utils.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Colleges\CollegeBriefDto.cs" />
+    <Compile Include="Colleges\CollegeDto.cs" />
+    <Compile Include="Colleges\CollegeSearchInput.cs" />
+    <Compile Include="Colleges\CollegeTagDto.cs" />
+    <Compile Include="Common\AreaDto.cs" />
+    <Compile Include="Majors\MajorDto.cs" />
+    <Compile Include="PagingInput.cs" />
+    <Compile Include="StudyAboard\ArticleBriefDto.cs" />
+    <Compile Include="StudyAboard\ArticleDto.cs" />
+    <Compile Include="YouServiceDataServicesDtoModule.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YouService.Data.Core\YouService.Data.Core.csproj">
+      <Project>{fb623fb2-4c30-41ae-ad1c-95b4a6cd2ca1}</Project>
+      <Name>YouService.Data.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

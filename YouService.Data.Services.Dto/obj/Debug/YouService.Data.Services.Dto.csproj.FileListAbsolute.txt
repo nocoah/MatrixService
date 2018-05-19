@@ -1,0 +1,15 @@
+E:\_6.0 YouzyService.Data\src\YouService.Data.Services.Dto\obj\Debug\YouService.Data.Services.Dto.csprojResolveAssemblyReference.cache
+E:\_6.0 YouzyService.Data\src\YouService.Data.Services.Dto\bin\Debug\YouService.Data.Services.Dto.dll
+E:\_6.0 YouzyService.Data\src\YouService.Data.Services.Dto\bin\Debug\YouService.Data.Services.Dto.pdb
+E:\_6.0 YouzyService.Data\src\YouService.Data.Services.Dto\bin\Debug\UPrime.AutoMapper.dll
+E:\_6.0 YouzyService.Data\src\YouService.Data.Services.Dto\bin\Debug\UPrime.dll
+E:\_6.0 YouzyService.Data\src\YouService.Data.Services.Dto\bin\Debug\UPrime.Extensions.Collection.dll
+E:\_6.0 YouzyService.Data\src\YouService.Data.Services.Dto\bin\Debug\UPrime.Extensions.Core.dll
+E:\_6.0 YouzyService.Data\src\YouService.Data.Services.Dto\bin\Debug\UPrime.Extensions.Serialization.dll
+E:\_6.0 YouzyService.Data\src\YouService.Data.Services.Dto\bin\Debug\UPrime.Utils.dll
+E:\_6.0 YouzyService.Data\src\YouService.Data.Services.Dto\bin\Debug\YouService.Data.Core.dll
+E:\_6.0 YouzyService.Data\src\YouService.Data.Services.Dto\bin\Debug\Newtonsoft.Json.dll
+E:\_6.0 YouzyService.Data\src\YouService.Data.Services.Dto\bin\Debug\YouService.Data.Core.pdb
+E:\_6.0 YouzyService.Data\src\YouService.Data.Services.Dto\obj\Debug\YouService.Data.Services.Dto.csproj.CoreCompileInputs.cache
+E:\_6.0 YouzyService.Data\src\YouService.Data.Services.Dto\obj\Debug\YouService.Data.Services.Dto.dll
+E:\_6.0 YouzyService.Data\src\YouService.Data.Services.Dto\obj\Debug\YouService.Data.Services.Dto.pdb

@@ -1,0 +1,15 @@
+E:\_6.0 YouzyService.Data\src\Tests\YouService.Data.Client.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\_6.0 YouzyService.Data\src\Tests\YouService.Data.Client.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\_6.0 YouzyService.Data\src\Tests\YouService.Data.Client.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\_6.0 YouzyService.Data\src\Tests\YouService.Data.Client.Tests\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+E:\_6.0 YouzyService.Data\src\Tests\YouService.Data.Client.Tests\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+E:\_6.0 YouzyService.Data\src\Tests\YouService.Data.Client.Tests\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+E:\_6.0 YouzyService.Data\src\Tests\YouService.Data.Client.Tests\bin\Debug\YouService.Data.Client.Tests.dll
+E:\_6.0 YouzyService.Data\src\Tests\YouService.Data.Client.Tests\bin\Debug\YouService.Data.Client.Tests.pdb
+E:\_6.0 YouzyService.Data\src\Tests\YouService.Data.Client.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\_6.0 YouzyService.Data\src\Tests\YouService.Data.Client.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\_6.0 YouzyService.Data\src\Tests\YouService.Data.Client.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\_6.0 YouzyService.Data\src\Tests\YouService.Data.Client.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\_6.0 YouzyService.Data\src\Tests\YouService.Data.Client.Tests\obj\Debug\YouService.Data.Client.Tests.csprojResolveAssemblyReference.cache
+E:\_6.0 YouzyService.Data\src\Tests\YouService.Data.Client.Tests\obj\Debug\YouService.Data.Client.Tests.dll
+E:\_6.0 YouzyService.Data\src\Tests\YouService.Data.Client.Tests\obj\Debug\YouService.Data.Client.Tests.pdb

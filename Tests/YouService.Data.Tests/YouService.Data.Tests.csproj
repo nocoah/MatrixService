@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\packages\MSTest.TestAdapter.1.1.18\build\net45\MSTest.TestAdapter.props" Condition="Exists('..\..\packages\MSTest.TestAdapter.1.1.18\build\net45\MSTest.TestAdapter.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{41AEA9B5-A24F-4CC1-8A92-08358EB8CC01}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YouService.Data.Tests</RootNamespace>
+    <AssemblyName>YouService.Data.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\..\packages\AutoMapper.6.2.2\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core">
+      <HintPath>..\..\packages\Castle.Core.4.2.0\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Facilities.Logging">
+      <HintPath>..\..\packages\Castle.LoggingFacility.4.1.0\lib\net45\Castle.Facilities.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Windsor">
+      <HintPath>..\..\packages\Castle.Windsor.4.1.0\lib\net45\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.DynamicFilters">
+      <HintPath>..\..\packages\EntityFramework.DynamicFilters.1.3.16\lib\net40\EntityFramework.DynamicFilters.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MSTest.TestFramework.1.1.18\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MSTest.TestFramework.1.1.18\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Nito.AsyncEx">
+      <HintPath>..\..\packages\Nito.AsyncEx.4.0.1\lib\net45\Nito.AsyncEx.dll</HintPath>
+    </Reference>
+    <Reference Include="Nito.AsyncEx.Concurrent">
+      <HintPath>..\..\packages\Nito.AsyncEx.4.0.1\lib\net45\Nito.AsyncEx.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Collections.Immutable, Version=1.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\System.Collections.Immutable.1.4.0\lib\netstandard2.0\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="UPrime">
+      <HintPath>..\..\packages\UPrime\UPrime.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.AutoMapper">
+      <HintPath>..\..\packages\UPrime\UPrime.AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Castle.Log4Net">
+      <HintPath>..\..\packages\UPrime\UPrime.Castle.Log4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.EntityFramework">
+      <HintPath>..\..\packages\UPrime\UPrime.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Extensions.Collection">
+      <HintPath>..\..\packages\UPrime\UPrime.Extensions.Collection.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Extensions.Core">
+      <HintPath>..\..\packages\UPrime\UPrime.Extensions.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Extensions.Serialization">
+      <HintPath>..\..\packages\UPrime\UPrime.Extensions.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.SDK">
+      <HintPath>..\..\packages\UPrime\UPrime.SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Utils">
+      <HintPath>..\..\packages\UPrime\UPrime.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Version">
+      <HintPath>..\..\packages\UPrime\UPrime.Version.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Repositories\Common\IAreaRepository_Tests.cs" />
+    <Compile Include="Repositories\StudyAboard\IArticleRepository_Tests.cs" />
+    <Compile Include="Services\Colleges\CollegeService_Tests.cs" />
+    <Compile Include="Services\Service_Tests.cs" />
+    <Compile Include="Services\StudyAboard\ArticleService_Tests.cs" />
+    <Compile Include="TestBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="log4net.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\YouService.Data.Core\YouService.Data.Core.csproj">
+      <Project>{fb623fb2-4c30-41ae-ad1c-95b4a6cd2ca1}</Project>
+      <Name>YouService.Data.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\YouService.Data.EntityFramework.Common\YouService.Data.EntityFramework.Common.csproj">
+      <Project>{a530edbc-9fbf-4f70-90b3-a1c97e94ae8c}</Project>
+      <Name>YouService.Data.EntityFramework.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\YouService.Data.EntityFramework.Core\YouService.Data.EntityFramework.Core.csproj">
+      <Project>{c2dc43ab-9a99-4b98-ab8b-6c9cdaf729a9}</Project>
+      <Name>YouService.Data.EntityFramework.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\YouService.Data.EntityFramework.Data\YouService.Data.EntityFramework.Data.csproj">
+      <Project>{573594cd-6345-452e-a098-2cee5a25c5d8}</Project>
+      <Name>YouService.Data.EntityFramework.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\YouService.Data.Services.Caching\YouService.Data.Services.Caching.csproj">
+      <Project>{addad513-b34e-44ba-83f0-5bc8be0ce9d1}</Project>
+      <Name>YouService.Data.Services.Caching</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\YouService.Data.Services.Dto\YouService.Data.Services.Dto.csproj">
+      <Project>{7d03ad90-caaf-4ff0-8592-43f662bb2a23}</Project>
+      <Name>YouService.Data.Services.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\YouService.Data.Services\YouService.Data.Services.csproj">
+      <Project>{12fb2558-13f4-4206-80e5-8c64986d49ef}</Project>
+      <Name>YouService.Data.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\MSTest.TestAdapter.1.1.18\build\net45\MSTest.TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\MSTest.TestAdapter.1.1.18\build\net45\MSTest.TestAdapter.props'))" />
+    <Error Condition="!Exists('..\..\packages\MSTest.TestAdapter.1.1.18\build\net45\MSTest.TestAdapter.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\MSTest.TestAdapter.1.1.18\build\net45\MSTest.TestAdapter.targets'))" />
+  </Target>
+  <Import Project="..\..\packages\MSTest.TestAdapter.1.1.18\build\net45\MSTest.TestAdapter.targets" Condition="Exists('..\..\packages\MSTest.TestAdapter.1.1.18\build\net45\MSTest.TestAdapter.targets')" />
+</Project>

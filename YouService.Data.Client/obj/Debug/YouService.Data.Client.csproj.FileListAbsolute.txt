@@ -1,0 +1,4 @@
+E:\_6.0 YouzyService.Data\src\YouService.Data.Client\bin\Debug\YouService.Data.Client.dll
+E:\_6.0 YouzyService.Data\src\YouService.Data.Client\bin\Debug\YouService.Data.Client.pdb
+E:\_6.0 YouzyService.Data\src\YouService.Data.Client\obj\Debug\YouService.Data.Client.dll
+E:\_6.0 YouzyService.Data\src\YouService.Data.Client\obj\Debug\YouService.Data.Client.pdb
